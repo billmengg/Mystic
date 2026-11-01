@@ -1,0 +1,34 @@
+# Python tracker
+.venv/
+__pycache__/
+
+# Unity (generated)
+app/Library/
+app/Temp/
+app/Logs/
+app/obj/
+app/UserSettings/
+app/.vs/
+app/.vscode/
+app/*.csproj
+app/*.sln
+# Created by Mystic > Build Windows App
+app/Assets/Mystic/Resources/
+app/Assets/Mystic/Resources.meta
+app/Assets/Resources.meta
+
+# Avatars are personal / commissioned and must never be published
+*.vrm
+*.vrm.meta
+*.vsfavatar
+*.fbx
+app/Assets/StreamingAssets/Models/*
+!app/Assets/StreamingAssets/Models/.gitkeep
+
+# Old empty converter project (the real one is outside this repo)
+Convert60/
+
+# Build output and logs
+build/
+build-pyinstaller.log
+debug/
